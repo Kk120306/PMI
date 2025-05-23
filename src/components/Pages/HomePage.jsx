@@ -7,10 +7,10 @@ import RecentArticles from '../RecentArticles';
 
 const HomePage = () => {
     return (
-        <div className="text-white ">
+        <div className="text-white mb-10">
 
             <div
-                className="relative h-[50vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5"
+                className="relative h-[90vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5"
                 style={{ backgroundImage: `url(${HomeBg})` }}
             >
                 <div className="absolute inset-0 bg-black/40"></div>
@@ -28,7 +28,7 @@ const HomePage = () => {
 
             </div>
 
-            <div className="md:p-12 p-7 lg:p-15 text-black mt-20 flex flex-col items-center justify-center gap-8 md:gap-15">
+            <div className="md:p-12 p-7 lg:p-15 text-black mt-20 flex flex-col items-center justify-center gap-8 md:gap-20">
                 <NewestArticle />
                 <div className="w-full md:px-8 lg:px-12">
                     <img

@@ -15,7 +15,7 @@ const RecentArticles = () => {
     if (newest.length === 0) return <p>No articles available.</p>;
 
     return (
-        <div className="text-black max-w-6xl mx-auto mt-20">
+        <div className="text-black max-w-6xl mx-auto mt-15">
             <h2 className="text-3xl md:text-5xl font-semibold mb-15 font-serif">Read More</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">

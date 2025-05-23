@@ -13,7 +13,7 @@ const NavBar = () => {
         { name: 'Contact', path: '/contact' },
     ];
 
-    const linkClasses = 'hover:underline text-sm';
+    const linkClasses = 'relative text-sm after:content-[""] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-sky-500 hover:after:w-full';
 
     return (
         <nav className="bg-black text-white p-4 pr-6">
@@ -44,7 +44,7 @@ const NavBar = () => {
                         <li key={item.name}>
                             <Link
                                 to={item.path}
-                                className={linkClasses}
+                                className="text-sm hover:underline"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {item.name}
