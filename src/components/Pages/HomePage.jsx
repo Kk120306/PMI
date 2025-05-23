@@ -1,6 +1,7 @@
 import HomeBg from '../../assets/home-bg.jpg';
 import HomeSBg from '../../assets/home-sec-bg.jpg';
 import NewestArticle from '../NewestArticle';
+import RecentArticles from '../RecentArticles';
 
 
 
@@ -36,7 +37,10 @@ const HomePage = () => {
                         className="w-full max-w-6xl mx-auto max-h-[200px] md:max-h-[300px] lg:max-h-[400px] object-cover"
                     />
                 </div>
+                <RecentArticles />
             </div>
+
+            
         </div>
     );
 }
