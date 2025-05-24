@@ -9,7 +9,7 @@ function ErrorPage() {
         >
             <div className="absolute inset-0 bg-black/60"></div>
 
-            <div className="z-10">
+            <div className=" z-10">
                 <h1 className="text-3xl font-bold mb-4">Oops! Something went wrong.</h1>
                 <p className="mb-2">We couldn't find the page you were looking for.</p>
                 <p className="mb-6">Error: 404 - Page Not Found</p>
