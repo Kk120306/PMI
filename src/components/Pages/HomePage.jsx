@@ -10,11 +10,10 @@ const HomePage = () => {
         <div className="text-white mb-10">
 
             <div
-                className="relative h-[90vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5"
+                className="relative h-[90vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5 parallax-bg"
                 style={{ backgroundImage: `url(${HomeBg})` }}
             >
                 <div className="absolute inset-0 bg-black/40"></div>
-
                 <div className="z-10">
                     <h1 className="text-2xl md:text-5xl font-bold text-left ">
                         Global Insights<br />
@@ -25,8 +24,8 @@ const HomePage = () => {
                         Our articles offer clear, actionable insights into company strategy and growth.
                     </p>
                 </div>
-
             </div>
+
 
             <div className="md:p-12 p-7 lg:p-15 text-black mt-20 flex flex-col items-center justify-center gap-8 md:gap-20">
                 <NewestArticle />
@@ -40,7 +39,7 @@ const HomePage = () => {
                 <RecentArticles />
             </div>
 
-            
+
         </div>
     );
 }

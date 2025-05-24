@@ -4,12 +4,11 @@
         "title": "Brand Genericization: Tupperware’s Decline and Google’s Success",
         "slug": "genericization-tupperware-google",
         "summary": "The article explores the concept of brand genericization, where a brand name becomes synonymous with a whole product category. It discusses how this phenomenon can lead to either the growth or decline of a company, using examples like Google and Tupperware, and highlights the strategic challenges businesses face in managing their brand identity.",
-        "url": "https://google.com",
+        "src": "/assets/articles/bg-cs.pdf",
         "tags": [
             "Strategy",
             "Innovation"
         ],
-        "image": "../assets/brand-gen.jpg",
         "publishedAt": "2025-02-02",
         "authorId": 1
     },
@@ -18,11 +17,10 @@
         "title": "Walmart Equity Research Report",
         "slug": "walmart-equity-research",
         "summary": "This report analyzes Walmart’s equity performance, exploring the company’s financial position, market trends, and future growth potential in the retail sector.",
-        "url": "https://google.com",
+        "src": "/assets/articles/wallmart-err.pdf",
         "tags": [
             "Equity Research"
         ],
-        "image": "../assets/wallm-bg.jpg",
         "publishedAt": "2025-03-10",
         "authorId": 2
     },
@@ -31,11 +29,10 @@
         "title": "Netflix Equity Research Report",
         "slug": "netflix-equity-research",
         "summary": "This report provides an in-depth analysis of Netflix’s equity performance, evaluating its revenue growth, subscriber trends, and position in the streaming industry.",
-        "url": "https://google.com",
+        "src": "/assets/articles/nettflix-err.pdf",
         "tags": [
             "Equity Research"
         ],
-        "image": "../assets/nettf-bg.jpg",
         "publishedAt": "2025-05-01",
         "authorId": 1
     }

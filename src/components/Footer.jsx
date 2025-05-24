@@ -4,7 +4,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 const Footer = () => {
     return (
         <footer className="bg-black text-white px-6 md:px-20 py-10">
-            <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+            <div className="max-w-6xl mx-auto grid lg:grid-cols-3 gap-10">
 
 
                 <div className="border-l-4 h-14 pl-3">
@@ -21,8 +21,8 @@ const Footer = () => {
                         <li>Canada</li>
                         <li className="flex items-center gap-2 mt-2">
                             <MdEmail className="text-lg text-grey-400" />
-                            <a href="mailto:ktsuji@student.ubc.ca" className="hover:underline">
-                                ktsuji@student.ubc.ca
+                            <a href="mailto:pacificmarketinsight@gmail.com" className="hover:underline">
+                                pacificmarketinsight@gmail.com
                             </a>
                         </li>
                         <li className="flex items-center gap-2">
@@ -39,7 +39,6 @@ const Footer = () => {
                     <p className="mb-2">&copy; 2023 Pacific Market. All rights reserved.</p>
 
                 </div>
-
             </div>
         </footer>
     );

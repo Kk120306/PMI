@@ -3,21 +3,21 @@
       "id": 1,
       "name": "Kyle Tsuji",
       "bio": "Bcom @ UBC",
-      "profileImage": "../assets/face/kyle.jpg",
+      "profileImage": "/assets/face/kyle.jpg",
       "contact" : "ktsuji@student.ubc.ca"
     },
     {
       "id": 2,
       "name": "Anderson Ko",
       "bio": "Bcom @ UBC",
-      "profileImage": "../assets/face/ander.jpg",
+      "profileImage": "/assets/face/ander.jpg",
       "contact" : "kohc.anderson@gmail.com"
     },
     {
         "id": 3,
         "name": "Luke Delahunty",
         "bio": "Bcom @ UBC",
-        "profileImage": "../assets/face/luke.jpg",
+        "profileImage": "/assets/face/luke.jpg",
         "contact" : "lukedelahunty8@gmail.com"
       }
     

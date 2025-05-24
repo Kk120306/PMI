@@ -3,13 +3,14 @@ import articles from '../../data/articles.json';
 import Recent1 from '../../assets/recent1.jpg';
 import Recent2 from '../../assets/recent2.jpg';
 import Recent3 from '../../assets/recent3.jpg';
+import { Link } from 'react-router-dom';
 
 const images = [Recent1, Recent2, Recent3];
 
 const Articles = () => {
     return (
         <div className="px-6 py-10 sm:px-10 md:px-16 lg:px-24 xl:px-32 bg-white text-gray-900 mt-20">
-            <div className="mb-12 flex flex-col md:flex-row md:items-start md:space-x-10">
+            <div className="mb-12 flex flex-col md:flex-row md:items-start md:space-x-10 px-2">
                 <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 md:mb-0 md:w-1/3 text-left">
                     All Articles
                 </h1>
@@ -21,7 +22,7 @@ const Articles = () => {
             </div>
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 mt-20 mb-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 mt-20 mb-20">
                 {articles.map((article, index) => (
                     <div key={article.slug || index} className="flex flex-col bg-gray-50 rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
                         <div className="flex items-center gap-2 text-sky-600 font-semibold mb-2">
