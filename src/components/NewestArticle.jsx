@@ -1,5 +1,6 @@
 import articles from './../data/articles.json';
 import { FaReadme } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const NewestArticle = () => {
     const sortedArticles = [...articles].sort(
@@ -21,13 +22,13 @@ const NewestArticle = () => {
                     </div>
                     <h2 className="md:text-4xl text-2xl font-bold mb-2">{newest.title}</h2>
                     <p className="text-sm text-gray-500 mb-8">{new Date(newest.publishedAt).toDateString()}</p>
-                    <a
-                        href={`/articles/${newest.slug}`}
+                    <Link
+                        to={`/articles/${newest.slug}`}
                         className="text-black-600 border-1 px-10 py-4 
                         transition duration-300 ease-in-out hover:bg-black hover:text-white"
                     >
                         Read More →
-                    </a>
+                    </Link>
                 </div>
 
                 <p className="mb-4 max-w-xl text-gray-700 md:mt-15">{newest.summary}</p>

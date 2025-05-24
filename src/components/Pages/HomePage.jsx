@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="text-white mb-10">
 
             <div
-                className="relative h-[90vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5 parallax-bg"
+                className="relative h-[93vh] bg-cover bg-center flex items-end md:p-12 p-7 lg:p-15 pb-0 justify-between gap-5 parallax-bg"
                 style={{ backgroundImage: `url(${HomeBg})` }}
             >
                 <div className="absolute inset-0 bg-black/40"></div>

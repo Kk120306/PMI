@@ -40,12 +40,12 @@ const Articles = () => {
                         <p className="text-sm text-gray-500 mb-4">{new Date(article.publishedAt).toDateString()}</p>
                         <p className="text-gray-700 flex-grow">{article.summary}</p>
 
-                        <a
-                            href={`/articles/${article.slug}`}
+                        <Link
+                            to={`/articles/${article.slug}`}
                             className="mt-4 text-sky-600 hover:text-sky-800 font-medium transition duration-200"
                         >
                             Read More →
-                        </a>
+                        </Link>
                     </div>
                 ))}
             </div>

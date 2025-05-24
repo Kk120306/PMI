@@ -3,6 +3,7 @@ import { IoPricetagsOutline } from "react-icons/io5";
 import Recent1 from './../assets/recent1.jpg';
 import Recent2 from './../assets/recent2.jpg';
 import Recent3 from './../assets/recent3.jpg';
+import { Link } from "react-router-dom";
 
 const RecentArticles = () => {
     const sortedArticles = [...articles].sort(
@@ -33,12 +34,12 @@ const RecentArticles = () => {
                         <h3 className="text-xl font-bold">{article.title}</h3>
                         <p className="text-sm text-gray-500">{new Date(article.publishedAt).toDateString()}</p>
                         <p className="text-gray-700">{article.summary}</p>
-                        <a
-                            href={`/articles/${article.slug}`}
+                        <Link
+                            to={`/articles/${article.slug}`}
                             className="mt-auto text-sky-600 hover:text-black font-medium"
                         >
                             Read More →
-                        </a>
+                        </Link>
                     </div>
                 ))}
             </div>

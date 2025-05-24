@@ -1,25 +1,38 @@
 [
     {
-      "id": 1,
-      "name": "Kyle Tsuji",
-      "bio": "Bcom @ UBC",
-      "profileImage": "/assets/face/kyle.jpg",
-      "contact" : "ktsuji@student.ubc.ca"
+        "id": 1,
+        "name": "Kyle Tsuji",
+        "bio": "Bcom @ UBC",
+        "profileImage": "/assets/face/kyle.jpg",
+        "contact": "ktsuji@student.ubc.ca",
+        "role": "Lead Analyst",
+        "linkedin": "https://www.linkedin.com/in/kytsuj/"
     },
     {
-      "id": 2,
-      "name": "Anderson Ko",
-      "bio": "Bcom @ UBC",
-      "profileImage": "/assets/face/ander.jpg",
-      "contact" : "kohc.anderson@gmail.com"
+        "id": 2,
+        "name": "Kai Kameyama",
+        "bio": "Bcom @ UBC",
+        "profileImage": "/assets/face/kai.jpeg",
+        "contact": "kkamey01@student.ubc.ca",
+        "role": "Lead Analyst",
+        "linkedin": "www.linkedin.com/in/kaikameyama"
     },
     {
         "id": 3,
+        "name": "Anderson Ko",
+        "bio": "Bcom @ UBC",
+        "profileImage": "/assets/face/ander.jpg",
+        "contact": "kohc.anderson@gmail.com",
+        "role": "Jr Analyst",
+        "linkedin": "https://www.linkedin.com/in/anderson-ko/"
+    },
+    {
+        "id": 4,
         "name": "Luke Delahunty",
         "bio": "Bcom @ UBC",
         "profileImage": "/assets/face/luke.jpg",
-        "contact" : "lukedelahunty8@gmail.com"
-      }
-    
-  ]
-  
+        "contact": "lukedelahunty8@gmail.com",
+        "role": "Jr Analyst",
+        "linkedin": "https://www.linkedin.com/in/luke-delahunty"
+    }
+]

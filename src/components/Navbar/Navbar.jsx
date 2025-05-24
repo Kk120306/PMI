@@ -18,7 +18,7 @@ const NavBar = () => {
     return (
         <nav className="bg-black text-white p-4 pr-6">
             <div className="flex items-center justify-between">
-                <Logo />
+                <Link to="/"><Logo /></Link>
 
                 <button
                     className="md:hidden text-white"
