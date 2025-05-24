@@ -2,6 +2,7 @@ import App from "./App";
 import ErrorPage from "./components/ErrorPage";
 import HomePage from "./components/Pages/HomePage";
 import Contact from "./components/Pages/Contact";
+import Articles from "./components/Pages/Articles";
 
 const routes = [
     {
@@ -17,6 +18,10 @@ const routes = [
             {
                 path : "/contact",
                 element : <Contact />
+            },
+            {
+                path : "/articles",
+                element : <Articles />
             }
         ]
     }
